@@ -1,0 +1,115 @@
+
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  height: 100vh;
+  width: 100vh;
+  background-color: #4c5841;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+.description {
+  color: #fff;
+  border-radius: 10px;
+  margin-left: 50px;
+  margin-left: 22px;
+  padding: 0; /* Remove padding */
+  outline: 1px solid #fff; /* Add an outline with the same color as the text */
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 70%; /* Changed from left: 50%; */
+  transform: translate(-50%, -50%);
+  width: 400px; /* Increase the width */
+  height: 200px; /* Increase the height */
+}
+
+.description h2 {
+  font-size: 2em; /* Increase the font size */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a shadow behind the text */
+  transform: translateZ(10px); /* Give the letters a 3D effect */
+}
+
+.description p {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a shadow behind the text */
+  line-height: .5; /* Decrease the line height */
+}
+.parallax-photo {
+  z-index: -1;
+}
+
+.menu {
+  z-index: 999;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  height: 100vh;
+
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background-color: #4c5841;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
